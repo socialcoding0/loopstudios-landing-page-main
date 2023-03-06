@@ -66,14 +66,14 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between; }
-        body main .top-out .top-in nav ul {
+        body main .top-out .top-in nav div {
           display: flex;
           gap: 2.4rem;
           position: relative; }
-          body main .top-out .top-in nav ul img {
+          body main .top-out .top-in nav div img {
             position: absolute;
             right: 0; }
-          body main .top-out .top-in nav ul li a {
+          body main .top-out .top-in nav div li a {
             color: white; }
         body main .top-out .top-in nav .mobile-nav,
         body main .top-out .top-in nav .logo-mobile {
@@ -215,7 +215,7 @@ body {
     body main .top-out {
       background-image: url("../images/mobile/image-hero.jpg");
       background-position: center, center; }
-      body main .top-out .top-in nav ul {
+      body main .top-out .top-in nav div {
         background-color: black;
         position: absolute;
         top: 0;
@@ -229,16 +229,16 @@ body {
         padding-top: 15rem;
         padding-left: 2rem;
         transition: right 0.5s ease; }
-        body main .top-out .top-in nav ul li {
+        body main .top-out .top-in nav div li {
           font-size: 1.7rem;
           text-transform: uppercase;
           font-family: "Josefin Sans", sans-serif; }
-        body main .top-out .top-in nav ul img {
+        body main .top-out .top-in nav div img {
           top: 45px; }
-        body main .top-out .top-in nav ul .logo-mobile {
+        body main .top-out .top-in nav div .logo-mobile {
           left: 29px;
           display: block; }
-        body main .top-out .top-in nav ul .mobile-nav {
+        body main .top-out .top-in nav div .mobile-nav {
           right: 29px; }
       body main .top-out .top-in nav .mobile-active {
         right: 0px; }

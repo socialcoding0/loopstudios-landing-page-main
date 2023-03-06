@@ -97,7 +97,7 @@ body {
           display: flex;
           align-items: center;
           justify-content: space-between;
-          ul {
+          div {
             display: flex;
             gap: 2.4rem;
             position: relative;
@@ -344,7 +344,7 @@ body {
         background-position: center, center;
         .top-in {
           nav {
-            ul {
+            div {
               background-color: black;
               position: absolute;
               top: 0;
